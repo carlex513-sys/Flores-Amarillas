@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background: url("flores.jpg") no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+}
+
+/* Contenedor para carta + foto */
+.container {
+  display: flex;
+  gap: 40px; /* espacio entre carta y foto */
+  align-items: center;
+}
+
+/* Tarjeta estilo nota */
+.card {
+  background: #fff;
+  padding: 30px 40px;
+  border-radius: 10px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.35);
+  max-width: 400px;
+  text-align: center;
+  transform: rotate(-2deg);
+  border: 2px solid #eee;
+}
+
+.card p {
+  font-size: 1.4em;
+  color: #333;
+  margin: 10px 0;
+  line-height: 1.4;
+}
+
+.card .bonita {
+  font-size: 1.8em;
+  font-style: italic;
+  font-weight: bold;
+  color: #e09f1c;
+}
+
+/* Imagen */
+.image img {
+  max-width: 250px;
+  height: auto;
+  border-radius: 12px; /* opcional */
+}
